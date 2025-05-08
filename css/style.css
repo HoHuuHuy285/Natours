@@ -48,12 +48,12 @@ body {
   flex-direction: column;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 .heading-primary {
@@ -79,7 +79,7 @@ body {
   animation: moveInRight 1s ease-in;
 }
 
-.text-box {
+.header__text-box {
   text-align: center;
   transform: translate(0, -30%);
 }
@@ -156,7 +156,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
 
   color: #444;
@@ -174,7 +174,7 @@ body {
   z-index: -1;
   transition: all 0.2s;
 }
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -183,7 +183,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
